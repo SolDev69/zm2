@@ -1,13 +1,13 @@
 package net.examplemod.fabric;
 
-import net.examplemod.ExampleExpectPlatform;
+import net.examplemod.ModExpectPlatform;
 import net.fabricmc.loader.api.FabricLoader;
 
 import java.nio.file.Path;
 
-public class ExampleExpectPlatformImpl {
+public class FabricExpectPlatformImpl {
     /**
-     * This is our actual method to {@link ExampleExpectPlatform#getConfigDirectory()}.
+     * This is our actual method to {@link ModExpectPlatform#getConfigDirectory()}.
      */
     public static Path getConfigDirectory() {
         return FabricLoader.getInstance().getConfigDir();
